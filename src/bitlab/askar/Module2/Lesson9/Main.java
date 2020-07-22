@@ -7,7 +7,7 @@ public class Main {
         DBManager dbManager = new DBManager();
         dbManager.connect();
 
-//        dbManager.deleteCar(4L);
+        dbManager.deleteCar(4L);
 
         ArrayList<Car> cars = dbManager.getAllCars();
 
